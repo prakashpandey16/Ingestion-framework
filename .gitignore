@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+env.bak/
+venv.bak/
+.python-version
+
+# Logs and Temporary Files
+logs/
+*.log
+ingestion_service.log
+ingestion_service.err
+.temp/
+tmp/
+temp/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Browser Profile Data (Chrome/Selenium)
+amazon_profile/
+*/ChromeFeatureState
+*/first_party_sets.db*
+*/Local State
+*/Variations
+*/BrowserMetrics/
+*/component_crx_cache/
+*/Default/
+*/GraphiteDawnCache/
+*/GrShaderCache/
+*/NativeMessagingHosts/
+*/Safe Browsing/
+*/segmentation_platform/
+*/ShaderCache/
+
+# Secrets and Configuration
+config.toml
+config.*.toml
+secrets/
+secret/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.plist
+secret.key
+.env
+.env.*
+!.env.example
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Test Files
+boto3_test.py
+test_*.py
+main_old.py
+data_backups/
+
+# Database and Local Backups
+*.db
+*.sqlite
+*.sqlite3
+backups/
+backup/
+
+# Python Packaging and Build Artifacts
+pip-wheel-metadata/
+.pyre/
+.mypy_cache/
+.ruff_cache/
